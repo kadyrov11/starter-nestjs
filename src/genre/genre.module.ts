@@ -6,7 +6,6 @@ import { GenreModel } from './genre.model';
 import { GenreService } from './genre.service';
 import { GenreController } from './genre.controller';
 import { MovieModule } from '../movie/movie.module';
-
 @Module({
   providers: [GenreService],
   controllers: [GenreController],
@@ -22,5 +21,6 @@ import { MovieModule } from '../movie/movie.module';
     MovieModule,
     ConfigModule,
   ],
+
 })
 export class GenreModule {}

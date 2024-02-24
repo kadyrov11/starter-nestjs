@@ -3,7 +3,6 @@ import { InjectModel } from 'nestjs-typegoose';
 
 import { Types } from 'mongoose';
 import { ModelType } from '@typegoose/typegoose/lib/types';
-
 import { RatingModel } from './rating.model';
 import { MovieService } from '../movie/movie.service';
 @Injectable()

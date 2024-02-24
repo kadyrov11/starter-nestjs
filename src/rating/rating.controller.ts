@@ -8,9 +8,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { Types } from 'mongoose';
-
 import { RatingService } from './rating.service';
-
 import { RatingDto } from './reating.dto';
 import { Auth } from '../auth/decorators/auth.decorator';
 import { User } from '../user/decorators/user.decorator';

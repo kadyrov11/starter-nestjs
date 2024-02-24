@@ -15,7 +15,6 @@ import { IdValidationPipe } from '../pipes/id.validation.pipe';
 
 import { ActorDto } from './actor.dto';
 import { ActorService } from './actor.service';
-
 @Controller('actors')
 export class ActorController {
   constructor(private readonly ActorService: ActorService) {}

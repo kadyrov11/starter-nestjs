@@ -3,3 +3,4 @@ export class RatingDto {
   @IsNumber()
   value: number;
 }
+

@@ -51,3 +51,4 @@ export class MovieModel extends TimeStamps {
   @prop({ default: false })
   isExistTg?: boolean;
 }
+
